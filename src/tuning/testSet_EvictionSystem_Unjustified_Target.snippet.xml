@@ -9,8 +9,6 @@
           <E n="tenant">TargetSim</E>
         </U>
       </V>
-    </L>
-    <L>
       <V t="business_rule_state">
         <U n="business_rule_state">
           <E n="state">BROKEN</E>
@@ -25,8 +23,6 @@
           </U>
         </U>
       </V>
-    </L>
-    <L>
       <V t="rental_business_is_grace_period">
         <U n="rental_business_is_grace_period">
           <T n="negate">True</T>
