@@ -1,0 +1,48 @@
+{
+  "buildInstructions": {
+    "source": "src",
+    "destinations": [
+      "out"
+    ],
+    "packages": [
+      {
+        "filename": "brainblasted_ForRentUnjustifiedEvictionFix",
+        "include": [
+          "**/*"
+        ],
+        "exclude": []
+      }
+    ]
+  },
+  "buildSettings": {
+    "allowEmptyPackages": false,
+    "allowFolderCreation": false,
+    "allowMissingSourceFiles": false,
+    "allowPackageOverlap": false,
+    "allowResourceKeyOverrides": false,
+    "outputBuildSummary": "partial"
+  },
+  "releaseSettings": {
+    "overrideDestinations": [],
+    "zips": [
+      {
+        "doNotGenerate": true,
+        "filename": "MyZippedModFiles",
+        "internalFolder": "",
+        "packages": [
+          "brainblasted_ForRentUnjustifiedEvictionFix"
+        ],
+        "otherFiles": {
+          "include": [],
+          "exclude": []
+        }
+      }
+    ]
+  },
+  "stringTableSettings": {
+    "allowStringKeyOverrides": false,
+    "defaultStringTable": "src/strings/default.stbl.json",
+    "generateMissingLocales": true,
+    "mergeStringTablesInSamePackage": true
+  }
+}
